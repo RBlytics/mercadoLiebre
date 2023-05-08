@@ -1,0 +1,152 @@
+header {
+    background-color: #EAC926;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.tipologia24px {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.title {
+    margin: 15px 0px;
+    color: #cccccc;
+}
+
+.descuento {
+    font-size: 16px;
+    margin: 0px;
+    color: green;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.burger-menu {
+    display: block;
+    background-color: #03264C;
+    color: white;
+    max-width: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.product-data {
+    background-color: #ebebeb;
+    display: block;
+    padding: 15px;
+    margin: 5px;
+}
+
+.product-data img {
+    width: 100%;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    background-color: white;
+}
+
+.cicle {
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+
+footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    line-height: 10px;
+}
+
+.icono-footer {
+    width: 2em;
+    height: 2em;
+    color: blue;
+    position: center;
+}
+
+.last-view-products, .offer-products {
+    display: flex;
+}
+
+.last-view-container, .offers-conteiner {
+    box-shadow: 2px 2px 2px 5px rgba(100, 100, 100, 0.1);
+}
+
+.offer-title {
+    color: gray;
+    padding: 0 15px;
+}
+
+.footer {
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-item h5, .footer-item p {
+    margin: 5px;
+    line-height: 20px;
+}
+/* BREAKPOINT Celular */
+@media screen and (min-width: 0px) and (max-width: 360px) {
+    .last-view-container, .offers-conteiner {
+        box-shadow: none;
+    }
+}
+
+/* BREAKPOINT Tablet */
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    .last-view-products, .offer-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item {
+        border-bottom: 1px solid gray;
+        margin-bottom: 25px;
+    }
+
+}
+
+/* BREAKPOINT Desktop */
+@media screen and (min-width: 769px) {}
