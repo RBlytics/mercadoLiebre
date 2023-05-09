@@ -27,6 +27,7 @@ h2 {
 .search-title, .offer-title {
     font-size: 24px;
     color: grey;
+    margin: 20px;
 }
 
 .precio {
@@ -92,20 +93,18 @@ h5 {
 }
 
 main {
-    width: 90%;
     margin: 0;
     background-color: #ebebeb;
 }
 
 .image-front-page {
-    width: 100vw;
+    width: 97vw;
 }
 
 .product-data {
     display: block;
     padding: 15px;
     margin: 5px;
-    box-shadow: 2px 2px 2px 5px rgba(100, 100, 100, 0.1);
 }
 
 .product-data img {
@@ -117,7 +116,25 @@ main {
     flex-direction: column;
     padding: 0 5px;
     background-color: white;
-    border-top: #ebebeb solid 1px;
+    box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.2);
+}
+
+.last-view-products, .offer-products {
+    display: flex;
+}
+
+.last-view-container, .offers-conteiner{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.offer-title {
+    color: gray;
+    padding: 2px 15px;
+}
+
+.image-line {
+    border-bottom: #ebebeb solid 1px;
 }
 
 .cicle {
@@ -166,20 +183,6 @@ footer {
     font-size:x-small;
 }
 
-.last-view-products, .offer-products {
-    display: flex;
-}
-
-.last-view-container, .offers-conteiner {
-    padding-left: 60px;
-    /* box-shadow: 2px 2px 2px 5px rgba(100, 100, 100, 0.1); */
-}
-
-
-.offer-title {
-    color: gray;
-    padding: 0 15px;
-}
 
 .footer {
     display: flex;
