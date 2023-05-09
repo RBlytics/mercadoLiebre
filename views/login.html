@@ -45,67 +45,17 @@
         </nav>
     </header>
     <main>
-        <form action="/home" method="POST">
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">
-            </div>
-            <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="apellido">
-            </div>
-            <div>
-                <label for="nombreUsuario">Usuario:</label>
-                <input type="text" name="nombreUsuario" id="nombreUsuario">
-            </div>
-            <div>
-                <label for="date">Fecha de nacimiento:</label>
-                <input type="text" name="date" id="date" value="26/04/23" min="1950/01/01" max="2023/01/01">
-            </div>
-            <div>
-                <label for="domicilio">Domicilio:</label>
-                <input type="text" name="domicilio" id="domicilio">
-            </div>
-            <div>
-                <label for="perfil">Perfil:</label>
-                <select name="perfil" id="perfil">
-                    <option value="Comprar"></option>
-                    <option value="Vender"></option>
-                </select>
-            </div>
-            <div>
-                <label for="categorias">Electro</label>
-                <input type="checkbox" name="categorias" id="categorias" value="Electro">
-            </div>
-            <div>
-                <label for="categorias">Moda</label>
-                <input type="checkbox" name="categorias" id="categorias" value="Moda">
-            </div>
-            <div>
-                <label for="categorias">Hogar</label>
-                <input type="checkbox" name="categorias" id="categorias" value="Hogar">
-            </div>
-            <div>
-                <label for="categorias">Juguetería</label>
-                <input type="checkbox" name="categorias" id="categorias" value="Juguetería">
-            </div>
-            <div>
-                <label for="categorias">Vida sana</label>
-                <input type="checkbox" name="categorias" id="categorias" value="Vida sana">
-            </div>
-            <div>
-                <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg">
-            </div>
-            <div>
-                <label for="pwd">Contraseña:</label>
-                <input type="pwd" name="pwd" id="pwd">
-            </div>
-            <div>
-                <label for="confirmpwd">Confirmar contraseña:</label>
-                <input type="password" name="confirmpwd" id="confirmpwd">
-            </div>
-            <div>
-                <a href="Ir a página principal"></a>
+        <form action="/login" method="POST">
+            <div class="login-box">
+                <div>
+                    <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                </div>
+                <div>
+                    <input type="password" name="pwd" id="pwd" placeholder="Elegí tu contraseña">
+                </div>
+                <div class="submit-button">
+                    <button>Enviar</button>
+                </div>
             </div>
         </form>
     </main>
@@ -133,5 +83,3 @@
         <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
 </body>
-
-</html>
